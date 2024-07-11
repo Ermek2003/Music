@@ -4,18 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.DTOs
+namespace Models.DTOs.TrackDTOs
 {
-    public class AlbumDTO
+    public class TrackDTO
     {
         /// <summary>
         /// Identifier code
         /// </summary>
         public int Id { get; set; }
         /// <summary>
-        /// Name
+        /// Title
         /// </summary>
-        public string Name { get; set; }
-        public int ArtistId { get; set; }
+        public string Title { get; set; }
+        /// <summary>
+        /// AlbumId
+        /// </summary>
+        public int AlbumId { get; set; }
+        public int GenreId { get; set; }
     }
 }

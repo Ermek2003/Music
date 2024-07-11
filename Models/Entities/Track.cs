@@ -24,6 +24,6 @@ namespace Models.Entities
         public Album Album { get; set; }
         public Genre Genre { get; set; }
         public ICollection<Playlist_Track> Playlist_Tracks { get; } = [];
-        public ICollection<Playlist> Playlists { get; } = [];
+        //public ICollection<Playlist> Playlists { get; } = [];
     }
 }

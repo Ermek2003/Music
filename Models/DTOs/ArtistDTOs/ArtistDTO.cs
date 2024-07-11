@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Models.DTOs
+namespace Models.DTOs.ArtistDTOs
 {
-    public class GenreDTO
+    public class ArtistDTO
     {
         /// <summary>
         /// Identifier core
@@ -15,6 +15,6 @@ namespace Models.DTOs
         /// <summary>
         /// Name
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
     }
 }
