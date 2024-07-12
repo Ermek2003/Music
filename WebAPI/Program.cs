@@ -1,5 +1,10 @@
+using WebAPI.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddEntityFramework(builder.Configuration);
+builder.Services.AddBllServices();
+builder.Services.AddDataSourceServises();
 // Add services to the container.
 
 builder.Services.AddControllers();

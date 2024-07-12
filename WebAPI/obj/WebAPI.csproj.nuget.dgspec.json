@@ -4,14 +4,235 @@
     "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj": {
+    "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj",
+        "projectName": "Abstaction",
+        "projectPath": "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj",
         "packagesPath": "C:\\Users\\etald\\.nuget\\packages\\",
-        "outputPath": "D:\\TimelySkills\\Music\\Music\\WebAPI\\obj\\",
+        "outputPath": "D:\\TimelySkills\\Music\\Music\\Abstaction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\etald\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj": {
+                "projectPath": "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TimelySkills\\Music\\Music\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TimelySkills\\Music\\Music\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\TimelySkills\\Music\\Music\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\etald\\.nuget\\packages\\",
+        "outputPath": "D:\\TimelySkills\\Music\\Music\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\etald\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj": {
+                "projectPath": "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TimelySkills\\Music\\Music\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TimelySkills\\Music\\Music\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\TimelySkills\\Music\\Music\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\etald\\.nuget\\packages\\",
+        "outputPath": "D:\\TimelySkills\\Music\\Music\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\etald\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj": {
+                "projectPath": "D:\\TimelySkills\\Music\\Music\\Abstaction\\Abstaction.csproj"
+              },
+              "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj": {
+                "projectPath": "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\TimelySkills\\Music\\Music\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\etald\\.nuget\\packages\\",
+        "outputPath": "D:\\TimelySkills\\Music\\Music\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\etald\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,7 +265,80 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "D:\\TimelySkills\\Music\\Music\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\etald\\.nuget\\packages\\",
+        "outputPath": "D:\\TimelySkills\\Music\\Music\\WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\etald\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TimelySkills\\Music\\Music\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\TimelySkills\\Music\\Music\\BLL\\BLL.csproj"
+              },
+              "D:\\TimelySkills\\Music\\Music\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\TimelySkills\\Music\\Music\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

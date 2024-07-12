@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zvLGFNsxK86ThCwnC+KPTGJYX+9qK+veeISC9Ll8pAj8jbpsyB+Yww9ARTts24rtrHKqhosS3GXVaStYwGkVLA==",
+  "dgSpecHash": "6fQR1Mb6/ZMnVZzt5nFncfdv1axP5Mkf1I6ipiaqIMRROgoRzb+FsQiwzXtFB/D92l/pOCKtSrPMUYvMjgmm5Q==",
   "success": true,
   "projectFilePath": "D:\\TimelySkills\\Music\\Music\\BLL\\BLL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\etald\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\etald\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

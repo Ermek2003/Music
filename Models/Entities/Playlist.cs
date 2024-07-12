@@ -27,7 +27,9 @@ namespace Models.Entities
         /// <summary>
         /// User
         /// </summary>
+        
         public User User { get; set; }
+
         //public ICollection<PlaylistTrack> PlaylistTracks { get; } = [];
         //public ICollection<Track> Tracks { get; } = [];
     }

@@ -25,7 +25,7 @@ namespace DAL.Configurations
 
             builder.HasMany(u => u.Playlists)
                 .WithOne(p => p.User)
-                .HasForeignKey(p => p.Id);
+                .HasForeignKey(p => p.UserId);
         }
     }
 }

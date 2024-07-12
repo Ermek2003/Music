@@ -20,8 +20,6 @@ namespace DAL.EntityFramework
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfiguration(new UserConfigurations());
-            modelBuilder.ApplyConfiguration(new PlaylistConfigurations());
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(MusicDbContext).Assembly);
         }
     }
