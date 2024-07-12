@@ -10,6 +10,6 @@ namespace Models.DTOs.UserDTOs
 {
     public class UserDetailsDTO : UserDTO
     {
-        public ICollection<PlaylistDTO> Playlists { get; set; } = [];
+        public ICollection<PlaylistDTO> Playlists { get; set; } = new List<PlaylistDTO>();
     }
 }

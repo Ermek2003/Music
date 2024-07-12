@@ -13,7 +13,7 @@ namespace Models.DTOs.PlaylistDTOs
     public class PlaylistDetailDTO : PlaylistDTO
     {
         public UserDTO User { get; set; }
-        //public ICollection<Playlist_TrackDTO> Playlist_Tracks { get; } = [];
+        //public ICollection<PlaylistTrackDTO> PlaylistTracks { get; } = [];
         //public ICollection<TrackDTO> Tracks { get; } = [];
     }
 }

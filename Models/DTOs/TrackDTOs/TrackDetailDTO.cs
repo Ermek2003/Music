@@ -15,7 +15,7 @@ namespace Models.DTOs.TrackDTOs
     {
         public AlbumDTO Album { get; set; }
         public GenreDTO Genre { get; set; }
-        public ICollection<Playlist_TrackDTO> Playlist_Tracks { get; } = [];
+        public ICollection<PlaylistTrackDTO> PlaylistTracks { get; } = [];
         //public ICollection<PlaylistDTO> Playlists { get; } = [];
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DAL.Configurations;
+using Microsoft.EntityFrameworkCore;
 using Models.Entities;
 using System;
 using System.Collections.Generic;
@@ -19,8 +20,9 @@ namespace DAL.EntityFramework
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            var applicationContextAssembly = typeof(MusicDbContext).Assembly;
-            modelBuilder.ApplyConfigurationsFromAssembly(applicationContextAssembly);
+            modelBuilder.ApplyConfiguration(new UserConfigurations());
+            modelBuilder.ApplyConfiguration(new PlaylistConfigurations());
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(MusicDbContext).Assembly);
         }
     }
 }

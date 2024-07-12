@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Models.Entities
 {
-    public class Playlist_Track
+    public class PlaylistTrack
     {  
         public int PlaylistId { get; set; }
         public int TrackId { get; set; }

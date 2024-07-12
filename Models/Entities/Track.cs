@@ -23,7 +23,7 @@ namespace Models.Entities
         public int GenreId { get; set; }
         public Album Album { get; set; }
         public Genre Genre { get; set; }
-        public ICollection<Playlist_Track> Playlist_Tracks { get; } = [];
+        public ICollection<PlaylistTrack> PlaylistTracks { get; } = [];
         //public ICollection<Playlist> Playlists { get; } = [];
     }
 }

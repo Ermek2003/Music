@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Models.DTOs.Playlist_TrackDtos
 {
 
-    public class Playlist_TrackDTO
+    public class PlaylistTrackDTO
     {
         public int PlaylistId { get; set; }
         public int TrackId { get; set; }
